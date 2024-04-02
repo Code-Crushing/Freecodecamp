@@ -6,7 +6,30 @@
     <title>RPG - Dragon Repeller</title>
   </head>
   <body>
-    <div class="div" id="game">
+    <div class="div" id="game"><div>
+      let's make the try to make a game about dragon repelling! <br>
+    </div>
+    <div>
+      <div class="div" id="playerStats">
+        <span class="stat"> Level: <strong><span id="levelText">1</span></strong> </span>
+        <span class="stat"> Attack: <strong><span id="attackText">10</span></strong> </span>
+        <span class="stat"> Defense: <strong><span id="defenseText">10</span></strong> </span>
+      </div>
+      
+      <button onclick="startGame  ()">Start Game</button>
+      <button onclick="restartGame()">Restart Game</button>
+    </div>
+      <div class="div" id="store">
+        <button id="buyAttack">Buy Attack (10 gold)</button>
+        <button id="buyDefense">Buy Defense (10 gold)</button>
+        <button id="buyHealth">Buy Health (10 gold)</button>
+        <button id="leaveStore">Leave store</button>
+      </div>    
+      <div class="div" id="cave">
+        <button id="leaveCave">Leave cave</button>
+      </div>  
+    
+    </div>
       <div class="div" id="stats">
         <span class="stat"> XP: <strong><span id="xpText">0</span></strong> </span>
         <span class="stat"> Health: <strong><span id="healthText">100</span></strong> </span>
