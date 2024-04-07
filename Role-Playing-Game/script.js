@@ -8,3 +8,8 @@ let inventory = ["stick"];
 
 const button1 = document.querySelector('#button1');
 const test = 'for';
+let goForIt = () =>{
+    for (let i = 0; i < 10; i++){
+        console.log(i);
+    }
+}
