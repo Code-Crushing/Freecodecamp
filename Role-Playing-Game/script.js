@@ -13,3 +13,17 @@ let goForIt = () =>{
         console.log(i);
     }
 }
+for (let i = 0; i < 10; i++){
+    console.log(i);
+}
+
+console.log('Hello! Welcome to the game!');
+
+function welcome() {
+    console.log('Hello! Welcome to the game!');
+}       
+welcome();
+
+function fight() {
+    console.log('You fought the monster!');
+}
