@@ -26,4 +26,5 @@ welcome();
 
 function fight() {
     console.log('You fought the monster!');
-}
+};
+const mouseTrack =  document.getElementById('mouseTrack');
