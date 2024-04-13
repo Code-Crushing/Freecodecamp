@@ -27,6 +27,7 @@ body {
 }
 
 #monsterStats {
+    display: none;
     background-color: #c70d0d;
     border: 1px solid #0a0a23;
     color: #ffffff;
