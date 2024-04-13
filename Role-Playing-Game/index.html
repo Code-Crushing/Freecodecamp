@@ -6,50 +6,18 @@
     <title>RPG - Dragon Repeller</title>
   </head>
   <body>
-    <div class="div" id="game"><div>
-      let's make the try to make a game about dragon repelling! <br>
-    </div>
-    <div>
-      <div class="div" id="playerStats">
-        <span class="stat"> Level: <strong><span id="levelText">1</span></strong> </span>
-        <span class="stat"> Attack: <strong><span id="attackText">10</span></strong> </span>
-        <span class="stat"> Defense: <strong><span id="defenseText">10</span></strong> </span>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
       </div>
-      
-      <button onclick="startGame  ()">Start Game</button>
-      <button onclick="restartGame()">Restart Game</button>
-    </div>
-      <div class="div" id="store">
-        <button id="buyAttack">Buy Attack (10 gold)</button>
-        <button id="buyDefense">Buy Defense (10 gold)</button>
-        <button id="buyHealth">Buy Health (10 gold)</button>
-        <button id="leaveStore">Leave store</button>
-      </div>    
-      <div class="div" id="cave">
-        <button id="leaveCave">Leave cave</button>
-      </div>  
-      <div>
-        <div class="div" id="dragonStats">
-          <span class="stat"> Level: <strong><span id="dragonLevelText">1</span></strong> </span>
-          <span class="stat"> Attack: <strong><span id="dragonAttackText">10</span></strong> </span>
-          <span class="stat"> Defense: <strong><span id="dragonDefenseText">10</span></strong> </span>
-        </div>
-      </div>
-    </div>
-      <div class="div" id="stats">
-        <span class="stat"> XP: <strong><span id="xpText">0</span></strong> </span>
-        <span class="stat"> Health: <strong><span id="healthText">100</span></strong> </span>
-        <span class="stat"> Gold: <strong><span id="goldText">50</span></strong> </span>
-      </div>
-      <div class="div" id="controls">
+      <div id="controls">
         <button id="button1">Go to store</button>
         <button id="button2">Go to cave</button>
         <button id="button3">Fight dragon</button>
       </div>
-      <div class="div" id="monsterStats"></div>
-      <div class="div" id="text"></div>
     </div>
-      
     <script src="./script.js"></script>
   </body>
 </html>
