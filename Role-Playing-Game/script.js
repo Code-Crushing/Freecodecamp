@@ -25,3 +25,17 @@ function goStore () {
 function goCave () {
     console.log("Going to cave.");
 }
+function fightDragon () {
+    console.log("Fighting dragon.");
+}
+
+function fightSlime () {
+    console.log("Fighting slime.");
+}
+function fightBeast () {
+    console.log("Fighting beast.");
+}
+
+function pickUpLoot () {
+    console.log("Picking up loot.");
+}
