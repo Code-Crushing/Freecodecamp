@@ -38,4 +38,70 @@ function fightBeast () {
 
 function pickUpLoot () {
     console.log("Picking up loot.");
+
+}
+
+import Assignments from "./Assignments.js"
+
+export default{
+    components: {
+        Assignments
+    },
+
+    template: `
+        <Assignments></Assignments>
+    `
+
+
+    // template: `
+    
+
+    // <section  >
+    //     <ul>
+    //         <H2 class="font-bold">    In Progress</H2>
+    //         <li v-for="assignment in InProgressAssignments" :key="assignment.id" class="m-2">
+    //             <label>
+    //                 {{ assignment.name }}
+
+    //                 <input type="checkbox" v-model="assignment.disabled">
+
+    //             </label>
+    //         </li>
+    //     </ul>
+    // </section>
+    // <section class="mt-4">
+    //     <ul>
+    //     <H2 class="font-bold">Completed</H2>
+    //         <li v-for="assignment in completedAssignments" :key="assignment.id" >
+    //             <label>
+    //                 {{ assignment.name }}
+
+    //                 <input type="checkbox" v-model="assignment.disabled">
+
+    //             </label>
+    //         </li>
+    //     </ul>
+    // </section>
+    
+    // `,
+
+    // data () {
+    //     return{
+    //         assignments: [
+    //             {name: 'do shores', disabled: false, id: 1},
+    //             {name: 'learn', disabled: false, id: 2},
+    //             {name: 'read', disabled: false, id: 3},
+    //         ]
+    //     }
+    // },
+
+    // computed: {
+    //     InProgressAssignments (){
+    //         return this.assignments.filter(assignment => !assignment.disabled);
+    //     },
+    //     completedAssignments (){
+    //         return this.assignments.filter(assignment => assignment.disabled);
+    //     }
+    // }
+
 }
